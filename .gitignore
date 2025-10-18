@@ -1,0 +1,21 @@
+# Build and object files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Build folders
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
