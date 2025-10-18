@@ -1,0 +1,13 @@
+# Simple Makefile for Home Network Simulation
+# After then in bash: make -> ./home_sim
+
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -pthread
+SRC = main.cpp topology.cpp node.cpp monitor.cpp traffic_gen.cpp
+OUT = home_sim
+
+all:
+	$(CXX) $(SRC) -o $(OUT) $(CXXFLAGS)
+
+clean:
+	rm -f $(OUT)
